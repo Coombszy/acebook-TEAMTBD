@@ -8,7 +8,7 @@ import org.springframework.ui.Model;
 @RestController
 public class HomeController {
 
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/ree")
 	public String index() {
 		return "index";
 	}
