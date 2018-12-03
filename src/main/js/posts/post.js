@@ -4,6 +4,7 @@ const Post = (props) => {
 	return (
 		<div className='post-main'>
 			<div className='post-content'>
+			    {props.post.name}
 				{props.post.content}
 			</div>
 		</div>

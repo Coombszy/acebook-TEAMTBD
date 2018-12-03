@@ -17,11 +17,14 @@ public class Post {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String content;
+    private String name;
 
     private Post() {}
 
     public Post(String content) {
+        System.out.printf("BEEP!");
         this.content = content;
+        this.name = "TESTNAME";
     }
 
     public String getContent() {
