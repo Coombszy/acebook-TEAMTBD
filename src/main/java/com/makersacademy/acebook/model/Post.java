@@ -27,7 +27,11 @@ public class Post {
         this.name = "TESTNAME";
     }
 
+
+
     public String getContent() {
         return this.content;
     }
+
+    public String getName() { return this.name; }
 }

@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class PostTest {
+public class PostTTest {
 
 	private Post post = new Post("hello");
 
